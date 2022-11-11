@@ -3,7 +3,7 @@
 $host =	"localhost";
 $user = "root";
 $password =	"root";
-$db = "task_edusogno";
+$db = "edusogno_esercizio";
 
 $connessione = new mysqli ($host,$user,$password,$db);
 
@@ -29,14 +29,6 @@ $sql_utenti="CREATE TABLE IF NOT EXISTS utenti (
      PRIMARY KEY (id)
      )";
      
-
-
-//  Marco, Rossi, ulysses200915@varen8.com , Edusogno123
-// Filippo, D’Amelio, qmonkey14@falixiao.com , Edusogno?123
-// Gian Luca, Carta, mavbafpcmq@hitbase.net , EdusognoCiao
-// Stella, De Grandis, dgipolga@edume.me , EdusognoGia
-
-
 //  $sql_insert="INSERT INTO `eventi`(`attendees`, `nome_evento`, `data_evento`) 
 //  VALUES ('ulysses200915@varen8.com,qmonkey14@falixiao.com,mavbafpcmq@hitbase.net',
 //  'Test Edusogno 1', '2022-10-13 14:00'), ('dgipolga@edume.me,qmonkey14@falixiao.com,mavbafpcmq@hitbase.net',

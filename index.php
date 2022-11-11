@@ -7,12 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <link rel="stylesheet" href="assets/styles/general-style.css">
-    <link rel="stylesheet" href="assets/styles/style.css">
     <title>Registrazione</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="general-style.css">
 </head>
 <body>
-    
+
     <header class="conteiner">
         <img src="./img/edusogno.svg" alt="">
 
@@ -24,6 +24,7 @@
                     <h1 class="title-registration">Crea il tuo account</h1>
                 </div>
         
+                <!-- pagina register.html -->
                 <form action="./php/register.php" method="POST">
                    
                     <label for="nome">Inserisci il nome</label>
@@ -45,6 +46,6 @@
         </section>
     </main>
 
-    <script type="text/javascript" src="assets/js/script.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
